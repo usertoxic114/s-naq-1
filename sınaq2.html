@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balkhurma Form</title>
+    <link rel="stylesheet" href="sınaqdizayn2.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <header>
+            <div class="company-logo">
+                <img src="logo.jpg" alt="Balkhurma Logo">
+            </div>
+            <div class="form-title">
+                <h1>"BALKHURMA" MMC</h1>
+                <p>QIDA TƏHLÜKƏSİZLİYİ İDARƏETMƏ SİSTEMİ</p>
+                <p>MÜRACİƏT ANKET FORMASI</p>
+            </div>
+            <div class="form-meta">
+                <p>Sənəd №: FORM-BX-017-005</p>
+                <p>Nəşr Tarixi: 01/10/2020</p>
+                <p>Dəyişiklik №: 00</p>
+                <p>Səhifə №: 1/1</p>
+            </div>
+        </header>
+
+        <section>
+            <h2>1. ŞƏXSİ MƏLUMAT</h2>
+            <form>
+                <label>Ad, soyad, ata adı:</label>
+                <input type="text" name="fullname" placeholder="Adınızı daxil edin...">
+
+                <label>Doğum yeri və tarixi:</label>
+                <input type="text" name="birthplace" placeholder="Doğum yerinizi daxil edin...">
+
+                <label>Yaşadığı şəhər və ünvan:</label>
+                <input type="text" name="address" placeholder="Ünvanınızı daxil edin...">
+
+                <label>Qeydiyyatda olduğu şəhər və ünvan:</label>
+                <input type="text" name="registered_address" placeholder="Qeydiyyat ünvanınızı daxil edin...">
+
+                <label>Vətəndaşlıq:</label>
+                <input type="text" name="citizenship" placeholder="Vətəndaşlığınızı daxil edin...">
+
+                <label>Ailə vəziyyəti:</label>
+                <select name="marital_status">
+                    <option value="subay">Subay</option>
+                    <option value="evli">Evli (A.S.A)</option>
+                </select>
+
+                <label>Hərbi xidmət:</label>
+                <select name="military_service">
+                    <option value="bəli">Bəli</option>
+                    <option value="xeyr">Xeyr</option>
+                </select>
+            </form>
+        </section>
+
+        <section>
+            <h2>2. ƏLAQƏ</h2>
+            <form>
+                <label>Telefonlar (Ev):</label>
+                <input type="text" name="phone_home" placeholder="Ev telefon nömrənizi daxil edin...">
+
+                <label>Telefonlar (Mobil):</label>
+                <input type="text" name="phone_mobile" placeholder="Mobil telefon nömrənizi daxil edin...">
+
+                <label>Elektron poçt ünvanı:</label>
+                <input type="email" name="email" placeholder="E-poçt ünvanınızı daxil edin...">
+            </form>
+        </section>
+
+        <section>
+            <h2>3. MÜRACİƏT EDƏN HAQQINDA QEYDLƏR</h2>
+            <form>
+                <label>1.</label>
+                <input type="text" name="front_concl" placeholder="Qeydlər...">
+
+                <label>2. </label>
+                <input type="text" name="back_plg_rg" placeholder="Qeydlər...">
+
+                <label>3. </label>
+                <input type="text" name="db" placeholder="Qeydlər...">
+            </form>
+        </section>
+
+        <footer>
+            <p>CV</p>
+            <p>Müraciət edənin imzası: ______________________</p>
+            <p>Doldurulma tarixi: ______________________</p>
+        </footer>
+    </div>
+
+</body>
+</html>
